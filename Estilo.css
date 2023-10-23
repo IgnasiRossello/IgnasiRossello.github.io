@@ -1,0 +1,60 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    background-color: #8edafb;
+}
+
+header {
+    background-color: #9f3c3c;
+    color: #67bfff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #9f3c3c;
+    color: #67bfff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+#nombre, #email, #mensaje {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #fc9696;
+    box-sizing: border-box;
+   
+}
+
+
+button {
+    background-color: #4e1a1a;
+    color: #e17272;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #358b0d;
+}
